@@ -29,10 +29,10 @@ v1_42 = ["v1_40", "pango-sys/v1_42"]
 dox = ["pango-sys/dox", "glib/dox"]
 
 [dependencies]
-gobject-sys = "0.7.0"
-glib = "0.6.0"
-glib-sys = "0.7.0"
-pango-sys = "0.7.0"
+gobject-sys = { git = "https://github.com/StinkStudios/sys", tag = "0.7.1", version = "0.7.1" }
+glib = { git = "https://github.com/StinkStudios/glib", tag = "0.6.1", version = "0.6.1" }
+glib-sys = { git = "https://github.com/StinkStudios/sys", tag = "0.7.1", version = "0.7.1" }
+pango-sys = { git = "https://github.com/StinkStudios/sys", tag = "0.7.1", version = "0.7.1" }
 libc = "0.2"
 bitflags = "1.0"
 lazy_static = "1.0"
